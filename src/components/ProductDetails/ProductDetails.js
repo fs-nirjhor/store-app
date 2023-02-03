@@ -14,7 +14,7 @@ const ProductDetails = () => {
     .then(res => res.json())
     .then(data => setProduct(data));
   }, [productId]);
-  const {category,image,price,title,description, rating} = product;
+  const {category,image,price,title,description,rating} = product;
   
 return (
   <div>
